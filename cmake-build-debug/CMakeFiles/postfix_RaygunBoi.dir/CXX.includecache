@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/tmp/postfix-RaygunBoi/evaluator.cpp
+evaluator.h
+/tmp/postfix-RaygunBoi/evaluator.h
+stack
+-
+cmath
+-
+
+/tmp/postfix-RaygunBoi/evaluator.h
+string
+-
+
+/tmp/postfix-RaygunBoi/main.cpp
+evaluator.h
+/tmp/postfix-RaygunBoi/evaluator.h
+cmath
+-
+iostream
+-
+iomanip
+-
+string
+-
+queue
+-
+
