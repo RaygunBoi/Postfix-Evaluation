@@ -23,7 +23,7 @@ double Evaluate(const string& postfix, bool& error){
         }
         else if(isdigit(postfix.at(i))) {
             num = "";
-            while(isdigit(postfix.at(i))) {
+            while(isdigit(postfix.at(i)) || postfix.at(i) == '.') {
                 num += postfix.at(i);
                 i++;
             }
