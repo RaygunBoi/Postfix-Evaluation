@@ -14,8 +14,8 @@ double Evaluate(const string& postfix, bool& error){
     double value;
     int spaceCount = 0;
     string num;
-
     error = false;
+
     for(size_t i = 0; i < postfix.size(); i++) {
         if(postfix.at(i) == ' ') {
             spaceCount++;
